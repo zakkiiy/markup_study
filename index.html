@@ -1,1 +1,53 @@
-<p>テスト</p>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta name="description" content="google description">
+</head>
+<body>
+  <h1>This is a tag</h1>
+  <h2>This is a tag</h2>
+  <h3>This is a tag</h3>
+  <p>This is a tag</p>
+  <!-- hrefのような属性をつけることで、いろいろな機能が使える。 -->
+  <a href="https://www.google.com/">This is a tag</a>
+
+  <!-- いれこ -->
+  <!-- sectionやdivで分けることで、ブラウザや検索エンジンなどがウェブページの意味や構造を理解しやすくな -->
+  <!-- また、グルーピングすることで、CSSでデザインしやすくなる。 -->
+  <section>
+    <h1>会社</h1>
+    <p>Let's go to <a href="https://www.google.com/">Google!</a></p>
+  </section>
+
+  <h2><a href="https://yahoo.co.jp">ヤフー</a></h2>
+  <ul>
+    <li>
+      <div>div</div>
+      <span>span</span>
+    </li>
+    <li>list</li>
+    <li>list</li>
+  </ul>
+  <!-- 属性 -->
+  <!-- この中では、targetやhref, id, classなど -->
+  <a target="_blank" href="">val</a>
+  <!-- 同じidは複数存在しててはダメ -->
+  <h1 id="headline">HeadLine</h1>
+  <!--  同じクラスは複数個存在しててもOK -->
+  <p class="text">text</p>
+  <a class="text" href="">text2</a>
+  <p class="text">text3</p>
+
+  <style>
+    #headline {
+      color: red;
+    }
+    .text {
+      color: blue;
+    }
+  </style>  
+</body>
+</html>
