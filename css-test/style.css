@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.div {
+  /* 要素と要素の間隔 */
+  /* margin-bottom: 200px;
+  /* margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 200px; */
+  margin: 200px;
+
+  width: calc(100%-10px);
+  height: 100px;
+  background-color: greenyellow;
+  transform: translate(-200px, 50px) rotate(30deg) skew(60deg);
+  background-image: url("./001-settings.png");
+}
+
+p.text2 {
+  color: red;
+  background-color: blue;
+  font-weight: bold;
+  font-size: 30px;
+  text-indent: 1em;
+  line-height: 2;
+}
+
+section {
+  /* background-color: yellowgreen;
+  background-repeat: no-repeat;
+  background-image: url("./001-settings.png"); */
+  background: url("./001-settings.png" ) blue no-repeat;
+  height: 200px;
+}
+
+.text {
+  color: green;
+}
+
+/* 擬似クラス */
+/* hover マウスカーソルを乗せた時だけ、スタイルを当てる */
+a:hover {
+  color: red;
+}
+
+/* 子孫セレクタ */
+.parent p {
+  color: red;
+}
+
+.parent > p {
+  color: blue;
+}
+
+.box {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid red;
+  margin: 20px;
+}
